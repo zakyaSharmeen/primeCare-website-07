@@ -1,0 +1,106 @@
+
+   
+  /* --------------------- */
+  .banner-section{
+    background-image: url(../images/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+ }
+ 
+ .banner-section .main-container{
+    display: flex;
+    justify-content: space-between;
+ }
+ .overlay-right h2{
+  padding: 25px 35px;
+    background-color: rgba(37, 37, 37, 0.9);
+margin: 0; 
+   color: white;
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+ }
+.overlay-left h2{
+  padding-top: 25px;
+  padding-bottom: 33px;
+  padding-left: 35px;
+  padding-right: 35px;  
+    background-color: rgba(37, 37, 37, 0.9);
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+}
+
+.banner-button
+
+{
+    margin-top: 15px;
+    
+    padding-left: 100px;
+
+}
+.banner-button button{
+    height: 48px;
+    width: 178px;
+
+    display: inline-block;
+    background-color: #82c419;
+    color: #ffffff;
+    padding: 12px 45px;
+    border-radius: 0;
+   
+    transition: all 0.3s;
+    border: none;
+    text-transform: uppercase;
+}
+ .overlay-right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }
+
+.overlay-right .banner-button{
+    margin-bottom: 15px;
+    padding: 0;
+}
+/* carasol */
+.swiper-horizontal{
+    position: relative;
+}
+ .swiper-pagination-bullets.swiper-pagination-horizontal{
+    position: absolute;
+    left: initial;
+    bottom: initial;
+    top: 45px;
+    right: 0;
+    width: 50px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+ }
+ .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    background: #82c419;;
+    border-radius: 0; 
+    opacity: 1;
+
+}
+
+
+.swiper-pagination-bullet-active{
+   
+    background-color: #252525;
+   
+
+}
